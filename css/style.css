@@ -1,0 +1,107 @@
+/*-- Vazir --*/
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/vazir-font/Vazir.eot');
+    src: url('../fonts/vazir-font/Vazir.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/vazir-font/Vazir.woff2') format('woff2'),
+    url('../fonts/vazir-font/Vazir.woff') format('woff'),
+    url('../fonts/vazir-font/Vazir.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+html,
+body {
+    font-family: Vazir;
+    background: #ffffff;
+}
+
+.header {
+    background-color: #0066ff;
+    background-image: linear-gradient(#0066fe, #003c9a);
+}
+
+.avatar {
+    border-radius: 10px;
+    box-shadow: 0 0px 4px 0px rgb(233 233 233);
+}
+
+.main {
+    background-color: #f7f7f7;
+}
+
+p {
+    font-size: 13px;
+}
+
+span {
+    font-size: 15px;
+}
+
+button {
+    font-size: 12px;
+}
+
+.navbar-item:hover{
+    background-color: #f1f1f1;
+    border-radius: 13px;
+}
+
+.service-useful {
+    background-color: #ededed;
+    border-radius: 15px;
+}
+
+.service-useful span {
+    font-family: Vazir;
+    font-weight: bold;
+    color: #2d8ad8;
+}
+
+.service-body {
+    background-color: #ededed;
+    border-radius: 15px;
+    width: 33%;
+}
+
+.service-body span {
+    font-family: Vazir;
+    font-weight: bold;
+    color: #2d8ad8;
+}
+
+.list-service {
+    background-color: #fff;
+    border-radius: 17px;
+    border: 1px solid #e0e0e0;
+    width: 200px;
+}
+
+.list-service:hover {
+    background-color: #eaeaea;
+    border-radius: 17px;
+    border: 1px solid #d0d1d1;
+    width: 200px;
+}
+
+.list-service-item {
+    background-color: #fff;
+    border-radius: 17px;
+    box-shadow: 0 0px 2px 2px rgb(222, 222, 222);
+    height: 60px;
+    width: 47%;
+}
+
+.list-service-item:hover {
+    background-color: #eaeaea;
+    border-radius: 17px;
+    box-shadow: 0 0px 4px 3px rgb(222, 222, 222);
+}
+
+.list-service-item-img{
+    width: 30%;
+}
+
+.list-service-item p{
+    padding-block: initial;
+}
